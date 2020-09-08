@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Théophile Seyrig</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body class="content">
+    <header class="header">
+      <div class="header__info">
+        <div class="header__logo">Portofolio</div>
+        <h1 class="header__title title">Hi, It’s Théophile Seyrig</h1>
+        <h2 class="header__subtitle">Designer from Porto, Portugal</h2>
+        <a class="header__link" href="#">Latest works</a>
+      </div>
+      <div class="header__burger">
+        <div class="header__burger-item"></div>
+        <div class="header__burger-item"></div>
+        <div class="header__burger-item"></div>
+        <div class="header__burger-item"></div>
+      </div>
+      <nav class="header__menu menu">
+        <ul class="menu__list">
+          <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+          <li class="menu__item"><a href="#about" class="menu__link">About</a></li>
+          <li class="menu__item"><a href="#skills" class="menu__link">Skills</a></li>
+          <li class="menu__item"><a href="#portfolio" class="menu__link">Portfolio</a></li>
+          <li class="menu__item"><a href="#contacts" class="menu__link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="about">
+        <a name="about"></a>
+        <h2 class="about__title title">About</h2>
+        <p class="about__paragraph">Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt.
+          Rhoncus, diam penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed
+          purus sed. Consectetur adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis.
+        </p>
+        <p class="about__paragraph">Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam penatibus aliquet tellus, in rutrum augue.
+          Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis. diam penatibus aliquet tellus,
+          in rutrum augue. Pellentesque.
+        </p>
+      </section>
+      <section class="skills">
+        <a name="skills"></a>
+        <h2 class="skills__title title">Skills</h2>
+        <div class="skills__content">
+          <img class="skills__pic" src="./img/man.jpg" alt="man.">
+          <div class="skills__info">
+            <div class="skills__name">Profile</div>
+            <p class="skills__value">UI / UX Engineer, Front-end Developer</p>
+            <br>
+            <div class="skills__name">Front-end Dev</div>
+            <img class="skills__value-img" src="./img/front.png" alt="#"><br>
+            <div class="skills__name">Tools</div>
+            <p class="skills__value">HTML, CSS, JS, Bootstrap, React</p>
+            <br>
+            <div class="skills__name">UI Design</div>
+            <img class="skills__value-img" src="./img/ui.png" alt="#"><br>
+            <div class="skills__name">Tools</div>
+            <p class="skills__value">Adobe PS, AI, XD, Figma, InVision</p>
+            <br>
+            <div class="skills__name">UX Research</div>
+            <img class="skills__value-img" src="./img/ux.png" alt="#"><br>
+            <div class="skills__name">Tools</div>
+            <p class="skills__value">Paper, Pen, Balsamiq</p>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio">
+        <a name="portfolio"></a>
+        <h2 class="portfolio__title title">Portfolio</h2>
+        <h3 class="portfolio__subtitle">UX Research</h3>
+        <div class="portfolio__content">
+          <p class="portfolio__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam odio cursus id.
+            Diam massa semper a tincidunt cursus ultricies lectus eget urna.
+          </p>
+          <div class="portfolio__photo">
+            <div>
+              <img src="./img/long-bridge-desk.jpg" alt="long bridge." class="portfolio__pic portfolio__pic_long-bridge">
+              <img src="./img/river-desk.jpg" alt="river." class="portfolio__pic portfolio__pic_river">
+            </div>
+            <div>
+              <img src="./img/bridge-desk.jpg" alt="bridge." class="portfolio__pic portfolio__pic_bridge">
+              <img src="./img/home-desk.jpg" alt="home." class="portfolio__pic portfolio__pic_home">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <a name="contacts"></a>
+      <h2 class="footer__title title">Get in Touch</h2>
+      <nav class="footer__menu">
+        <ul class="footer__contacts">
+          <li class="footer__item"><a href="#" class="footer__link">Dribbble</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Behance</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">CodePen</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">GitHub</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Medium</a></li>
+        </ul>
+        <ul class="footer__contacts">
+          <li class="footer__item"><a href="#" class="footer__link">LinkedIn</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Facebook</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Instagram</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Twitter</a></li>
+        </ul>
+        <ul class="footer__contacts">
+          <li class="footer__item"><a class="footer__link" href="mailto:seyrig@mailme.com">seyrig@mailme.com</a></li>
+          <li class="footer__item"><a class="footer__link" href="tel:+556645665544">+ 55 6645 665544</a></li>
+        </ul>
+      </nav>
+      <a class="footer__button" href="javascript:scroll(0,0)" ><img src="./img/btn.svg" alt="up"></a>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
